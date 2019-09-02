@@ -22,6 +22,13 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/81b62d1be5.js"></script>
+
+    <script>
+      function playNameAudio() {
+        var audio = new Audio('https://sasse-it.s3.us-east-2.amazonaws.com/Evandro+Sasse.mp3');
+        audio.play();
+      }
+    </script>
   </head>
 
   <body>
@@ -38,7 +45,13 @@
         </div>
 
         <div class="col-12 col-md mt-3 mt-md-2">
-          <h1 class="text-center text-md-left">Evandro Sasse</h1>
+          <h1 class="text-center text-md-left d-inline-block">
+            Evandro Sasse
+          </h1>
+
+          <a href="javascript: playNameAudio();">
+            <i class="fas fa-fw fa-volume-down"></i>
+          </a>
 
           <hr />
 
@@ -51,7 +64,7 @@
           <a target="_blank" href="https://angel.co/evandro-sasse">AngelList</a>
 
           <div class="mt-4">
-            <h4>Who am I?</h4>
+            <h4>Who am I? 🇧🇷</h4>
 
             <p>
               Full stack developer, mostly focused on Rails. Also a React, Python, and UX enthusiast.
