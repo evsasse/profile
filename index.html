@@ -29,6 +29,25 @@
         audio.play();
       }
     </script>
+
+    <style>
+      .derp {
+        background: blue;
+        background: var(--primary);
+        border-radius: 2px;
+
+        margin: 0 1px;
+        flex-grow: 1;
+
+        animation: fadeinphoto 10s infinite;
+      }
+
+      @keyframes fadeinphoto {
+        0% { height: 10px; }
+        50% { height: 100%; }
+        100% { height: 10px; }
+      }
+    </style>
   </head>
 
   <body>
@@ -42,6 +61,18 @@
             alt="Profile image"
           >
           </img>
+
+          <div class="d-none d-md-flex mt-1" style="height: 100px;">
+            <div class="derp bg-success" style="animation-delay: 0s;"></div>
+            <div class="derp bg-success" style="animation-delay: -5s;"></div>
+            <div class="derp bg-warning" style="animation-delay: -1s;"></div>
+            <div class="derp bg-primary" style="animation-delay: -6s;"></div>
+            <div class="derp bg-primary" style="animation-delay: -2s;"></div>
+            <div class="derp bg-primary" style="animation-delay: -7s;"></div>
+            <div class="derp bg-warning" style="animation-delay: -3s;"></div>
+            <div class="derp bg-success" style="animation-delay: -8s;"></div>
+            <div class="derp bg-success" style="animation-delay: -4s;"></div>
+          </div>
         </div>
 
         <div class="col-12 col-md mt-3 mt-md-2">
@@ -88,8 +119,14 @@
           <div class="mb-5">
             <h6>Projects</h6>
 
+            <i class="fab fa-fw mr-1 fa-docker"></i>
+            <a target="_blank" href="https://github.com/evsasse/setup-docker-rails">setup-docker-rails</a>,
+            easy setup of Rails projects using Docker.
+
+            <br />
+
             <i class="fas fa-fw mr-1 fa-hourglass-half"></i>
-            Soon
+            More soon...
           </div>
 
           <div class="mb-5">
