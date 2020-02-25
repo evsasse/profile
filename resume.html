@@ -28,18 +28,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://sasse-it.s3.us-east-2.amazonaws.com/favicon-16x16.png">
 
     <style type="text/css">
+      @page {
+        margin: 25mm 25mm 25mm 25mm;
+      }
+
       .dont-page-break {
-        position: relative;
-        page-break-after: always;
         page-break-inside: avoid;
+      }
+
+      p {
+        text-align: justify;
       }
     </style>
   </head>
 
   <body>
     <div class="container my-4" style="max-width: 800px">
-      <div class="row">
-        <div class="col-12 dont-page-break text-right">
+      <div class="row dont-page-break">
+        <div class="col-12 text-right">
           <h1 class="display-4">Evandro Sasse</h1>
           <div>
             <a href="https://evandro.sasse.it">https://evandro.sasse.it</a>
@@ -57,8 +63,10 @@
             evandro<i class="fas fa-at"></i>sasse.it
           </div>
         </div>
+      </div>
 
-        <div class="col-12 dont-page-break">
+      <div class="row dont-page-break">
+        <div class="col-12">
           <ul class="pl-3">
             <li style="list-style-type: none;">
               <h2 class="font-weight-bold">Professional Experience</h2>
@@ -72,12 +80,13 @@
                 - Brazil, Florianópolis
                 | September/2019 - <u>Currently</u>
               </span>
-              <br />
-              Reaching deep into Product, to better fulfill the critical pain points of the customers.
-              Leading squads to fast deliveries using Agile/Kanban.
-              Working close to the SRE to halve average latencies of requests, and start migrating infrastructure to Docker+Kubernetes.
-              Responsible for the groundwork of new services.
-              Refactoring some of the Ruby on Rails monolith into Python Serverless, using the Zappa framework.
+              <p>
+                Reaching deep into Product, to better fulfill pain points of the customers.
+                Leading squads to fast deliveries using Agile/Kanban.
+                Working close to the SRE to halve average latencies of requests, and start migrating infrastructure to Docker+Kubernetes.
+                Responsible for the groundwork of new services.
+                Refactoring some of the Ruby on Rails monolith into Python Serverless, using the Zappa framework.
+              </p>
             </li>
 
             <li class="mb-4">
@@ -88,11 +97,12 @@
                 - Brazil, Florianópolis
                 | January/2018 - August/2019
               </span>
-              <br/>
-              Scaling our infrastructure of sending emails and SMS, to send marketing campaigns to the whole of Brazil in a couple hours.
-              Reaching 1,000,000 MAU on a Ruby on Rails web application.
-              Supporting 1,500 daily concurrent users on a Python desktop application.
-              Remaking the entirety of our web frontend stack to use modern Webpack(er) with Rails.
+              <p>
+                Scaling our infrastructure of sending emails and SMS, to send marketing campaigns to the whole of Brazil in a couple hours.
+                Reaching 1,000,000 MAU on a Ruby on Rails web application.
+                Supporting 1,500 daily concurrent users on a Python desktop application.
+                Remaking the entirety of our web frontend stack to use modern Webpack(er) with Rails.
+              </p>
             </li>
 
             <li class="mb-4">
@@ -103,11 +113,12 @@
                 - Brazil, Florianópolis
                 | November/2016 - December/2017
               </span>
-              <br/>
-              Developing Ruby on Rails backends for Android and iOS apps.
-              Working on frontend and backend for two Ruby on Rails apps.
-              Creating an Electron and a Python(PyQt) desktop apps, and their respective backends;
-              getting much more reliable data from the customers, delivering value much faster.
+              <p>
+                Developing Ruby on Rails backends for Android and iOS apps.
+                Working on frontend and backend for two Ruby on Rails apps.
+                Creating an Electron and a Python(PyQt) desktop apps, and their respective backends;
+                getting much more reliable data from the customers, delivering value much faster.
+              </p>
             </li>
 
             <li class="mb-4">
@@ -119,16 +130,19 @@
                 - Brazil, Florianópolis
                 | March/2014 - June/2015
               </span>
-              <br/>
-              Working with university professors to help them to prepare classes and studies.
-              Helping other students to prepare for tests.
-              Organizing extra-curricular classes on programming subjects.
-              Coordinating lectures and workshops for the university yearly Computer Science forum.
+              <p>
+                Working with university professors to help them to prepare classes and studies.
+                Helping other students to prepare for tests.
+                Organizing extra-curricular classes on programming subjects.
+                Coordinating lectures and workshops for the university yearly Computer Science forum.
+              </p>
             </li>
           </ul>
         </div>
+      </div>
 
-        <div class="col-12 dont-page-break">
+      <div class="row dont-page-break">
+        <div class="col-12">
           <ul class="pl-3">
             <li style="list-style-type: none;">
               <h2 class="font-weight-bold">Academic Education</h2>
@@ -170,8 +184,9 @@
             </li>
           </ul>
         </div>
-
-        <div class="col-12 dont-page-break">
+      </div>
+      <div class="row dont-page-break">
+        <div class="col-12">
           <ul class="pl-3">
             <li style="list-style-type: none;">
               <h2 class="font-weight-bold">Skills</h2>
@@ -181,7 +196,7 @@
               <strong>Ruby / Rails</strong> - Advanced
             </li>
             <li>
-              <strong>Javascript / React / Redux</strong> - Advanced
+              <strong>Javascript / jQuery / React / Redux</strong> - Advanced
             </li>
             <li>
               <strong>HTML / CSS</strong> - Advanced
@@ -200,8 +215,10 @@
             </li>
           </ul>
         </div>
+      </div>
 
-        <div class="col-12 dont-page-break">
+      <div class="row dont-page-break">
+        <div class="col-12">
           <ul class="pl-3">
             <li style="list-style-type: none;">
               <h2 class="font-weight-bold">Language</h2>
@@ -218,8 +235,10 @@
             </li>
           </ul>
         </div>
+      </div>
 
-        <div class="col-12 dont-page-break">
+      <div class="row dont-page-break">
+        <div class="col-12">
           <ul class="pl-3">
             <li style="list-style-type: none;">
               <h2 class="font-weight-bold">Other Interests</h2>
