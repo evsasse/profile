@@ -27,7 +27,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://sasse-it.s3.us-east-2.amazonaws.com/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://sasse-it.s3.us-east-2.amazonaws.com/favicon-16x16.png">
 
-    <style type="text/css">
+    <style type="text/css" media="print">
       @page {
         margin: 25mm 25mm 25mm 25mm;
       }
@@ -36,14 +36,33 @@
         page-break-inside: avoid;
       }
 
+      .print-or-download {
+        display: none;
+      }
+    </style>
+
+    <style type="text/css">
       p {
         text-align: justify;
+      }
+
+      .print-or-download {
+        float: left;
       }
     </style>
   </head>
 
   <body>
     <div class="container my-4" style="max-width: 800px">
+      <div class="print-or-download d-none d-lg-block">
+        <button
+          onClick="window.print()"
+          class="btn btn-sm btn-outline-primary ml-3"
+        >
+          Download or Print
+        </button>
+      </div>
+
       <div class="row dont-page-break">
         <div class="col-12 text-right">
           <h1 class="display-4">Evandro Sasse</h1>
