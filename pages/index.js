@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
 function HomePage() {
   return (
     <main className="container">
+      <img src="profile.jpg" alt="Profile image"></img>
       <h1>Evandro Sasse</h1>
       <h2>Product-minded full-stack developer.</h2>
       <h3>
