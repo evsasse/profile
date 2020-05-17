@@ -3,9 +3,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "static": "next build && next export",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'evandro.sasse.it' > ./out/CNAME",
     "serve-static": "serve out",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "^9.4.1",
