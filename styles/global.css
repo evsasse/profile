@@ -1,5 +1,31 @@
-.container {
-  max-width: 800px;
-  padding: 20px;
-  margin: 0 auto;
+@import "tailwindcss/base";
+
+html, body {
+  @apply subpixel-antialiased;
+
+  font-family: Inter, Arial, sans-serif;
 }
+
+@import "tailwindcss/components";
+
+.container {
+  max-width: 900px;
+}
+
+.btn {
+  @apply rounded p-2;
+}
+
+.btn-block {
+  @apply block
+}
+
+.btn-light {
+  @apply bg-gray-200 text-gray-800;
+}
+
+.btn-light:hover {
+  @apply bg-gray-300;
+}
+
+@import "tailwindcss/utilities";
