@@ -10,6 +10,10 @@ hr {
   margin: 1rem 0;
 }
 
+@page {
+  margin: 1.5cm;
+}
+
 @import "tailwindcss/components";
 
 .container {
@@ -50,6 +54,16 @@ hr {
 
 .small {
   font-size: 0.7em;
+}
+
+@media print {
+  .dont-page-break {
+    page-break-inside: avoid;
+  }
+
+  .hide-when-printing {
+    display: none;
+  }
 }
 
 @import "tailwindcss/utilities";
