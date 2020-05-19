@@ -1,0 +1,83 @@
+@import "tailwindcss/base";
+
+html, body {
+  @apply text-gray-900 antialiased;
+
+  font-family: Inter, Arial, sans-serif;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+@page {
+  margin: 1.5cm;
+}
+
+@import "tailwindcss/components";
+
+.container {
+  max-width: 900px;
+}
+
+.btn {
+  @apply rounded p-2;
+}
+
+.btn:active, .btn:focus {
+  @apply shadow-outline outline-none;
+}
+
+.btn-block {
+  @apply block
+}
+
+.btn-light {
+  @apply bg-gray-200 text-gray-800;
+}
+
+.btn-light:hover {
+  @apply bg-gray-300;
+}
+
+.link {
+  color: #007bff;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.text-muted {
+  @apply text-gray-600;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
+@media print {
+  .dont-page-break {
+    page-break-inside: avoid;
+  }
+
+  .hide-when-printing {
+    display: none;
+  }
+}
+
+@import "tailwindcss/utilities";
+
+.profile__image__wrapper {
+  margin: 0 auto;
+  position: relative;
+  max-width: 200px;
+}
+
+.profile__image__emojis {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}

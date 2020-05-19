@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'evandro.sasse.it' > ./out/CNAME",
+    "serve-static": "serve out",
+    "deploy": "gh-pages -d out -t true"
+  },
+  "dependencies": {
+    "next": "^9.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "serve": "^11.3.0",
+    "tailwindcss": "^1.4.6"
+  }
+}
