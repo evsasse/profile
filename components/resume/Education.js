@@ -11,12 +11,12 @@ const School = ({ children, name, href, where, when }) => (
       { name }
     </a>
 
-    <p>
+    <p className="small">
       { where } | { when }
     </p>
 
     { children && (
-      <p>
+      <p className="small">
         { children }
       </p>
     )}
@@ -50,7 +50,9 @@ const Education = () => (
           href="https://www.waseda.jp"
           where="Japan, Tokyo"
           when="September/2015 - September/2016"
-        />
+        >
+          Through the Science Without Borders exchange program
+        </School>
       </Degree>
 
       <Degree title="Associate's degree in Software Development">
