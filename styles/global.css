@@ -1,9 +1,13 @@
 @import "tailwindcss/base";
 
 html, body {
-  @apply subpixel-antialiased;
+  @apply text-gray-900 subpixel-antialiased;
 
   font-family: Inter, Arial, sans-serif;
+}
+
+hr {
+  margin: 1rem 0;
 }
 
 @import "tailwindcss/components";
@@ -14,6 +18,10 @@ html, body {
 
 .btn {
   @apply rounded p-2;
+}
+
+.btn:active, .btn:focus {
+  @apply shadow-outline outline-none;
 }
 
 .btn-block {
@@ -28,4 +36,34 @@ html, body {
   @apply bg-gray-300;
 }
 
+.link {
+  color: #007bff;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.text-muted {
+  @apply text-gray-600;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
 @import "tailwindcss/utilities";
+
+.profile__image__wrapper {
+  margin: 0 auto;
+  position: relative;
+  max-width: 200px;
+}
+
+.profile__image__emojis {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
