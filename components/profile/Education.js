@@ -1,11 +1,11 @@
 const School = ({ children, href, name, detail }) => (
   <p className="mb-2 md:mb-0">
-    <div class="inline-block mr-1">
+    <div className="inline-block mr-1">
       { children }
     </div>
-    <div class="inline-block">
+    <div className="inline-block">
       <a target="_blank" rel="noopener" href={href} className="link">{ name }</a>
-      <em class="small text-muted ml-1">({ detail })</em>
+      <em className="small text-muted ml-1">({ detail })</em>
     </div>
   </p>
 )

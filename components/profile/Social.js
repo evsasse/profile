@@ -8,7 +8,7 @@ const Social = () => (
       More about me
     </SectionTitle>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
       <p>
         <i className="far fa-fw mr-1 fa-file-alt"></i>
 
