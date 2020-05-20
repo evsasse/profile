@@ -29,7 +29,7 @@ const Social = () => (
 
       <p>
         <i className="fab fa-fw mr-1 fa-angellist"></i>
-        <a target="_blank" rel="noopener" href="https://angel.co/evandro-sasse" className="link">AngelList</a>
+        <a target="_blank" rel="noopener" href="https://angel.co/u/evsasse" className="link">AngelList</a>
       </p>
 
       <p>
