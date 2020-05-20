@@ -4,7 +4,7 @@ const Headings = () => (
       Evandro Sasse
     </h1>
 
-    <h2 className="text-3xl font-medium text-gray-800">
+    <h2 className="text-3xl font-medium text-gray-700">
       <div className="inline-block">
         Product-minded&nbsp;
       </div>
