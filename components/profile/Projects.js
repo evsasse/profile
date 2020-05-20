@@ -12,10 +12,11 @@ const Project = ({ children, name, href, icon }) => (
       >
         { name }
       </a>
+      ,&nbsp;
     </div>
 
     <div className="inline-block">
-      , { children }.
+      { children }.
     </div>
   </p>
 )
