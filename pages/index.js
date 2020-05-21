@@ -1,10 +1,10 @@
-import Picture from '../components/profile/Picture';
-import MainSocial from '../components/profile/MainSocial';
-import Hr from '../components/profile/Hr';
-import Header from '../components/profile/Header';
-import Education from '../components/profile/Education';
-import Social from '../components/profile/Social';
-import Projects from '../components/profile/Projects';
+import Picture from "../components/profile/Picture";
+import MainSocial from "../components/profile/MainSocial";
+import Hr from "../components/profile/Hr";
+import Header from "../components/profile/Header";
+import Education from "../components/profile/Education";
+import Social from "../components/profile/Social";
+import Projects from "../components/profile/Projects";
 
 function HomePage() {
   return (
@@ -36,7 +36,7 @@ function HomePage() {
         </div>
       </div>
     </main>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

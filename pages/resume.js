@@ -1,10 +1,10 @@
-import BackToHomepage from '../components/resume/BackToHomepage';
-import Header from '../components/resume/Header';
-import Professional from '../components/resume/Professional';
-import Education from '../components/resume/Education';
-import TechnicalSkills from '../components/resume/TechnicalSkills';
-import Language from '../components/resume/Language';
-import Interests from '../components/resume/Interests';
+import BackToHomepage from "../components/resume/BackToHomepage";
+import Header from "../components/resume/Header";
+import Professional from "../components/resume/Professional";
+import Education from "../components/resume/Education";
+import TechnicalSkills from "../components/resume/TechnicalSkills";
+import Language from "../components/resume/Language";
+import Interests from "../components/resume/Interests";
 
 function ResumePage() {
   return (
@@ -22,7 +22,7 @@ function ResumePage() {
         <BackToHomepage />
       </div>
     </main>
-  )
+  );
 }
 
-export default ResumePage
+export default ResumePage;
