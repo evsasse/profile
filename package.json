@@ -13,6 +13,10 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
     "gh-pages": "^2.2.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.4",
@@ -30,7 +34,10 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js,jsx,tsx,json,yml,yaml,md,scss,css}": [
+    "*.{ts,js,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{json,yml,yaml,md,scss,css}": [
       "prettier --write"
     ]
   }
