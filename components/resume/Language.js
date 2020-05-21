@@ -6,6 +6,6 @@ const Language = () => (
     <Skill name="English" level="Fluent" />
     <Skill name="Japanese" level="Basic" />
   </Skills>
-)
+);
 
-export default Language
+export default Language;

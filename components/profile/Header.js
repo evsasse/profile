@@ -1,4 +1,4 @@
-import Headings from './Headings';
+import Headings from "./Headings";
 
 const Header = () => (
   <header>
@@ -11,9 +11,7 @@ const Header = () => (
         <i className="far fa-fw mr-2 fa-lightbulb text-orange-500"></i>
       </div>
 
-      <div className="inline-block">
-        Mostly focused on Rails, React and Product.
-      </div>
+      <div className="inline-block">Mostly focused on Rails, React and Product.</div>
     </p>
 
     <p>
@@ -23,11 +21,9 @@ const Header = () => (
         <i className="far fa-fw mr-2 fa-user-circle text-gray-600"></i>
       </div>
 
-      <div className="inline-block">
-        Also a Python, DevOps and UX enthusiast.
-      </div>
+      <div className="inline-block">Also a Python, DevOps and UX enthusiast.</div>
     </p>
   </header>
 );
 
-export default Header
+export default Header;

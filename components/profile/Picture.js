@@ -1,10 +1,6 @@
 const Picture = () => (
   <div className="profile__image__wrapper">
-    <img
-      src="profile.jpg"
-      alt="Profile image"
-      className="rounded w-full"
-    />
+    <img src="profile.jpg" alt="Profile image" className="rounded w-full" />
 
     <div className="profile__image__emojis">
       <span>🚀</span>
@@ -15,4 +11,4 @@ const Picture = () => (
   </div>
 );
 
-export default Picture
+export default Picture;

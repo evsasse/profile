@@ -10,6 +10,6 @@ const TechnicalSkills = () => (
     <Skill name="Python / PyQt / Flask / Zappa" level="Intermediary" />
     <Skill name="AWS" level="Intermediary" />
   </Skills>
-)
+);
 
-export default TechnicalSkills
+export default TechnicalSkills;

@@ -2,35 +2,26 @@ import SectionTitle from "../resume/SectionTitle";
 
 const School = ({ children, name, href, where, when }) => (
   <div className="mb-2">
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener"
-      className="link mr-1"
-    >
-      { name }
+    <a href={href} target="_blank" rel="noopener" className="link mr-1">
+      {name}
     </a>
 
     <p className="small">
-      { where } | { when }
+      {where} | {when}
     </p>
 
-    { children && (
-      <p className="small">
-        { children }
-      </p>
-    )}
+    {children && <p className="small">{children}</p>}
   </div>
-)
+);
 
 const Degree = ({ children, title }) => (
   <li className="mb-5 dont-page-break">
     <div>
-      <h5 className="font-medium">{ title }</h5>
-      { children }
+      <h5 className="font-medium">{title}</h5>
+      {children}
     </div>
   </li>
-)
+);
 
 const Education = () => (
   <section>
@@ -67,4 +58,4 @@ const Education = () => (
   </section>
 );
 
-export default Education
+export default Education;

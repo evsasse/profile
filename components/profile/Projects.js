@@ -1,25 +1,18 @@
-import SectionTitle from './SectionTitle';
+import SectionTitle from "./SectionTitle";
 
 const Project = ({ children, name, href, icon }) => (
   <p className="mb-2 md:mb-0">
     <div className="inline-block">
-      { icon }
-      <a
-        target="_blank"
-        rel="noopener"
-        href={ href }
-        className="link"
-      >
-        { name }
+      {icon}
+      <a target="_blank" rel="noopener" href={href} className="link">
+        {name}
       </a>
       ,&nbsp;
     </div>
 
-    <div className="inline-block">
-      { children }.
-    </div>
+    <div className="inline-block">{children}.</div>
   </p>
-)
+);
 
 const Projects = () => (
   <section>
@@ -48,4 +41,4 @@ const Projects = () => (
   </section>
 );
 
-export default Projects
+export default Projects;
