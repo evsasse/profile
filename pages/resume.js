@@ -1,3 +1,5 @@
+import React from "react";
+
 import BackToHomepage from "../components/resume/BackToHomepage";
 import Header from "../components/resume/Header";
 import Professional from "../components/resume/Professional";
@@ -9,7 +11,7 @@ import Interests from "../components/resume/Interests";
 function ResumePage() {
   return (
     <main className="container mx-auto p-5 my-8">
-      <div class="grid gap-20">
+      <div className="grid gap-20">
         <BackToHomepage />
 
         <Header />

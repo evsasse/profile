@@ -1,3 +1,5 @@
+import React from "react";
+
 import Picture from "../components/profile/Picture";
 import MainSocial from "../components/profile/MainSocial";
 import Hr from "../components/profile/Hr";
