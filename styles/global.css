@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 
-html, body {
+html,
+body {
   @apply text-gray-900 antialiased;
 
   font-family: Inter, Arial, sans-serif;
@@ -24,12 +25,13 @@ hr {
   @apply rounded p-2;
 }
 
-.btn:active, .btn:focus {
+.btn:active,
+.btn:focus {
   @apply shadow-outline outline-none;
 }
 
 .btn-block {
-  @apply block
+  @apply block;
 }
 
 .btn-light {
