@@ -22,8 +22,7 @@
     "tailwindcss": "^1.4.6"
   },
   "prettier": {
-    "printWidth": 120,
-    "addTrailingCommas": true
+    "printWidth": 120
   },
   "husky": {
     "hooks": {
