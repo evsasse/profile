@@ -14,8 +14,25 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.4",
     "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5",
     "serve": "^11.3.0",
     "tailwindcss": "^1.4.6"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "addTrailingCommas": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,jsx,tsx,json,yml,yaml,md,scss,css}": [
+      "prettier --write"
+    ]
   }
 }
