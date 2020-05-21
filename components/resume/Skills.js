@@ -1,3 +1,5 @@
+import React from "react";
+
 import SectionTitle from "./SectionTitle";
 
 export const Skill = ({ name, level }) => (

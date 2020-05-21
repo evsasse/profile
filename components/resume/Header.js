@@ -1,3 +1,5 @@
+import React from "react";
+
 import Headings from "../profile/Headings";
 
 const Header = () => (

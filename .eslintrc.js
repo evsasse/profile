@@ -13,4 +13,10 @@ module.exports = {
       version: "detect",
     },
   },
+  rules: {
+    // temporarily warning only, until converting stuff to TS
+    "react/prop-types": "warn",
+    // temporarily warning only, eslint should support noopener as enough
+    "react/jsx-no-target-blank": "warn",
+  },
 };

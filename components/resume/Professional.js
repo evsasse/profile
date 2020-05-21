@@ -1,3 +1,5 @@
+import React from "react";
+
 import SectionTitle from "../resume/SectionTitle";
 
 const Experience = ({ children, title, href, company, where, when }) => (

@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Skills, Skill } from "./Skills";
 
 const TechnicalSkills = () => (

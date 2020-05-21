@@ -1,3 +1,5 @@
+import React from "react";
+
 import SectionTitle from "../resume/SectionTitle";
 
 const School = ({ children, name, href, where, when }) => (
