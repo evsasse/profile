@@ -1,3 +1,5 @@
+import React from "react";
+
 const School = ({ children, href, name, detail }) => (
   <p className="mb-2 md:mb-0">
     <div className="inline-block mr-1">{children}</div>

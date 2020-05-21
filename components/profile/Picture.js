@@ -1,3 +1,5 @@
+import React from "react";
+
 const Picture = () => (
   <div className="profile__image__wrapper">
     <img src="profile.jpg" alt="Profile image" className="rounded w-full" />

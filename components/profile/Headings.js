@@ -1,3 +1,5 @@
+import React from "react";
+
 const Headings = () => (
   <>
     <h1 className="text-5xl font-bold leading-none tracking-tighter">Evandro Sasse</h1>
