@@ -27,7 +27,7 @@ const Professional = () => (
         href="https://kudos-care.com/"
         title="Senior Software Engineer"
         where="United States, New York (Remote)"
-        when="April/2019 - March/2020"
+        when="April/2020 - Currently"
       >
         Preparing platform MVP. Integrating to digital wallets and american bank accounts. Constructing groundwork for
         feature testing. Helping establish usage of a design system across the entire project.
