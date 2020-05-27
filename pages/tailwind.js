@@ -98,7 +98,7 @@ function ResumePage() {
           <p className="mt-5">
             As web developer, it is hard to get a better feeling than
             <br />
-            making a dead simple page that accomplishes you objectives.
+            making a dead simple page that accomplishes your objectives.
             <br />
             And there is a lot of space for for static pages,
             <br />
