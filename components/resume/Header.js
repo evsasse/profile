@@ -24,7 +24,7 @@ const Header = ({ headings, site, github, linkedin, location, phone, email }) =>
 
     {linkedin && (
       <p className="text-base">
-        <a target="_blank" rel="noopener" href="https://github.com/evsasse" className="link">
+        <a target="_blank" rel="noopener" href="https://linkedin.com/in/evsasse" className="link">
           linkedin.com/in/evsasse
         </a>
       </p>

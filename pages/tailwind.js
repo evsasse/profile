@@ -37,7 +37,7 @@ function ResumePage() {
           </p>
 
           <p className="mt-5">
-            Unfortunately I didn't have the opportunity to use it any project.
+            Unfortunately I didn't have the opportunity to use it in any project.
             <br />
             Until just recently.
           </p>
@@ -96,7 +96,7 @@ function ResumePage() {
           </p>
 
           <p className="mt-5">
-            As web developer, it is hard to get a better feeling than
+            As a web developer, it is hard to get a better feeling than
             <br />
             making a dead simple page that accomplishes your objectives.
             <br />
