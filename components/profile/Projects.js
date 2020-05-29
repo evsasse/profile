@@ -36,6 +36,10 @@ const Projects = () => (
       personal website, built using Next.js and Tailwind CSS
     </Project>
 
+    <Project name="Can I fly?" href="https://canifly.1313labs.com/" icon={<i className="fas fa-fw mr-1 fa-plane"></i>}>
+      information about Travel Restrictions during the COVID-19 pandemic
+    </Project>
+
     <p>
       <i className="fas fa-fw mr-1 fa-hourglass-half"></i>
       More soon..
