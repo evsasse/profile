@@ -39,6 +39,8 @@ export default class CustomApp extends App {
             rel="stylesheet"
           ></link>
           <script src="https://kit.fontawesome.com/81b62d1be5.js" async></script>
+
+          <script async defer data-domain="evandro.sasse.it" src="https://plausible.io/js/plausible.js"></script>
         </Head>
 
         <Component {...pageProps} />
