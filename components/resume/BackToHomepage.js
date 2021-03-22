@@ -5,14 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import IconWrapper from "../shared/IconWrapper";
 
-const BackToHomepage = () => (
+const BackToHomepage = ({ text = "Back to homepage" } = {}) => (
   <div className="hide-when-printing">
     <Link href="/">
       <a className="btn btn-light inline-flex items-center pr-5">
         <IconWrapper className="mr-2">
           <FontAwesomeIcon icon={faArrowLeft} />
         </IconWrapper>
-        Back to homepage
+        {text}
       </a>
     </Link>
   </div>

@@ -45,11 +45,15 @@ const MainSocial = () => (
       LinkedIn
     </ProfileButton>
 
-    <ProfileButton href="/resume" className="fake-border">
+    <ProfileButton href="/resume" className="border-fake">
       <IconWrapper width={12} className="mr-1">
         <FontAwesomeIcon icon={faFileAlt} />
       </IconWrapper>
       Full resume
+    </ProfileButton>
+
+    <ProfileButton href="/blog" className="button-blog px-3">
+      Blog
     </ProfileButton>
   </div>
 );
