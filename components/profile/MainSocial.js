@@ -9,11 +9,11 @@ import IconWrapper from "../shared/IconWrapper";
 
 const externalProps = { target: "_blank", rel: "noopener" };
 
-function ProfileButton({ href, external, children }) {
+function ProfileButton({ href, className, external, children }) {
   const link = (
     <a
       href={href}
-      className="btn btn-block btn-light flex justify-between items-center"
+      className={`${className} btn btn-block btn-light flex justify-between items-center`}
       {...(external ? externalProps : {})}
     >
       <div className="flex items-center">{children}</div>
@@ -45,11 +45,11 @@ const MainSocial = () => (
       LinkedIn
     </ProfileButton>
 
-    <ProfileButton href="/resume">
+    <ProfileButton href="/resume" className="border-4">
       <IconWrapper width={12} className="mr-1">
         <FontAwesomeIcon icon={faFileAlt} />
       </IconWrapper>
-      Resume
+      Full resume
     </ProfileButton>
   </div>
 );

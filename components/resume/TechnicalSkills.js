@@ -9,7 +9,8 @@ const TechnicalSkills = () => (
     <Skill name="HTML / CSS" level="Advanced" />
     <Skill name="SQL" level="Advanced" />
     <Skill name="Git" level="Advanced" />
-    <Skill name="Python / PyQt / Flask / Zappa" level="Intermediary" />
+    <Skill name="Typescript / NextJS / GraphQL" level="Intermediary" />
+    <Skill name="Python / PyQt / Serverless" level="Intermediary" />
     <Skill name="AWS" level="Intermediary" />
   </Skills>
 );
