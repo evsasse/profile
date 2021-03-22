@@ -11,7 +11,11 @@ const externalProps = { target: "_blank", rel: "noopener" };
 
 function ProfileButton({ href, external, children }) {
   const link = (
-    <a href={href} className="btn btn-block btn-light flex justify-between" {...(external ? externalProps : {})}>
+    <a
+      href={href}
+      className="btn btn-block btn-light flex justify-between items-center"
+      {...(external ? externalProps : {})}
+    >
       <div className="flex items-center">{children}</div>
 
       {external && (
