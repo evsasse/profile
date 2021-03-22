@@ -83,3 +83,13 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
+.list-disc.list-outside li {
+  list-style: none;
+}
+
+.list-disc.list-outside li::before {
+  content: "•";
+  position: absolute;
+  margin-left: -12px;
+}
