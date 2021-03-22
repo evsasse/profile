@@ -1,10 +1,15 @@
 import React from "react";
+import { faDocker } from "@fortawesome/free-brands-svg-icons";
+import { faIdBadge } from "@fortawesome/free-regular-svg-icons";
+import { faPlane } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import IconWrapper from "../shared/IconWrapper";
 import SectionTitle from "./SectionTitle";
 
 const Project = ({ children, name, href, icon }) => (
   <p className="mb-2 md:mb-0">
-    <span className="inline-block">
+    <span className="inline-flex items-center">
       {icon}
       <a target="_blank" rel="noopener" href={href} className="link">
         {name}
@@ -23,7 +28,11 @@ const Projects = () => (
     <Project
       name="setup-docker-rails"
       href="https://github.com/evsasse/setup-docker-rails"
-      icon={<i aria-hidden className="fab fa-fw mr-1 fa-docker"></i>}
+      icon={
+        <IconWrapper>
+          <FontAwesomeIcon icon={faDocker} />
+        </IconWrapper>
+      }
     >
       easy setup of Rails projects using Docker
     </Project>
@@ -31,7 +40,11 @@ const Projects = () => (
     <Project
       name="profile"
       href="https://github.com/evsasse/profile"
-      icon={<i aria-hidden className="far fa-fw mr-1 fa-id-badge"></i>}
+      icon={
+        <IconWrapper>
+          <FontAwesomeIcon icon={faIdBadge} width={12} />
+        </IconWrapper>
+      }
     >
       personal website, built using Next.js and Tailwind CSS
     </Project>
@@ -39,7 +52,11 @@ const Projects = () => (
     <Project
       name="Can I fly?"
       href="https://canifly.1313labs.com/"
-      icon={<i aria-hidden className="fas fa-fw mr-1 fa-plane"></i>}
+      icon={
+        <IconWrapper>
+          <FontAwesomeIcon icon={faPlane} />
+        </IconWrapper>
+      }
     >
       information about Travel Restrictions during the COVID-19 pandemic
     </Project>
