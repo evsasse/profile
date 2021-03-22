@@ -1,17 +1,23 @@
 import React from "react";
 import Link from "next/link";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import IconWrapper from "../shared/IconWrapper";
 
 const externalProps = { target: "_blank", rel: "noopener" };
 
 function ProfileButton({ href, external, children }) {
   const link = (
     <a href={href} className="btn btn-block btn-light flex justify-between" {...(external ? externalProps : {})}>
-      <div>{children}</div>
+      <div className="flex items-center">{children}</div>
 
       {external && (
-        <div>
-          <i aria-hidden className="fas fa-external-link-alt"></i>
-        </div>
+        <IconWrapper>
+          <FontAwesomeIcon icon={faExternalLinkAlt} />
+        </IconWrapper>
       )}
     </a>
   );
@@ -22,17 +28,23 @@ function ProfileButton({ href, external, children }) {
 const MainSocial = () => (
   <div className="grid gap-1">
     <ProfileButton href="https://github.com/evsasse" external>
-      <i aria-hidden className="fab fa-fw mr-1 fa-github"></i>
+      <IconWrapper className="mr-1">
+        <FontAwesomeIcon icon={faGithub} />
+      </IconWrapper>
       GitHub
     </ProfileButton>
 
     <ProfileButton href="https://linkedin.com/in/evsasse" external>
-      <i aria-hidden className="fab fa-fw mr-1 fa-linkedin"></i>
+      <IconWrapper className="mr-1">
+        <FontAwesomeIcon icon={faLinkedin} />
+      </IconWrapper>
       LinkedIn
     </ProfileButton>
 
     <ProfileButton href="/resume">
-      <i aria-hidden className="far fa-fw mr-1 fa-file-alt"></i>
+      <IconWrapper width={12} className="mr-1">
+        <FontAwesomeIcon icon={faFileAlt} />
+      </IconWrapper>
       Resume
     </ProfileButton>
   </div>
