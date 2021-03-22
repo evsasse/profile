@@ -45,7 +45,7 @@ const MainSocial = () => (
       LinkedIn
     </ProfileButton>
 
-    <ProfileButton href="/resume" className="border-4">
+    <ProfileButton href="/resume" className="fake-border">
       <IconWrapper width={12} className="mr-1">
         <FontAwesomeIcon icon={faFileAlt} />
       </IconWrapper>
